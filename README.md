@@ -1,5 +1,12 @@
 # javascript-Core-Concepts
+This repository contains daily learning notes, summaries, and practice related to the core fundamentals of JavaScript.
+It covers essential building blocks like execution context, call stack, scoping, hoisting, and other behind-the-scenes concepts that every serious JavaScript developer must understand.
 
+## Purpose
+- Daily revision and hands-on practice
+- In-depth explanations of how JavaScript actually works
+- A growing reference of my personal JavaScript understanding
+  
 ##  Topics Covered class-1
 - **Code Execution**  
   JavaScript code runs in two phases — memory creation and execution.  
