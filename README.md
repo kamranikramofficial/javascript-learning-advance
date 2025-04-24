@@ -1,4 +1,4 @@
-# javascript-learning-advance
+# javascript-Core-Concepts
 
 ## 📘 Topics Covered class-1
 - **Code Execution**  
