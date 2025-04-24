@@ -1,6 +1,6 @@
 # javascript-Core-Concepts
 
-## 📘 Topics Covered class-1
+##  Topics Covered class-1
 - **Code Execution**  
   JavaScript code runs in two phases — memory creation and execution.  
 - **Call Stack**  
