@@ -66,3 +66,7 @@
 
 
 //  Temporal Dead Zone (TDZ)
+// 1.Temporal Dead Zone wo time period hota hai jab let ya const variable memory mein to hota hai lekin accessible nahi hota.
+// 2.Jab tak variable ka actual declaration line execute nahi hota, tab tak wo TDZ mein rehta hai.
+// 3.TDZ mein variable ko access karne ki koshish karoge to ReferenceError milega.
+
