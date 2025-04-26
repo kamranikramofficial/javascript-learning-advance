@@ -1,6 +1,8 @@
 // Lexical Environment
 // Scope Chaining
-// 
+// hoisting
+//  Temporal Dead Zone (TDZ)
+
 
 // Lexical Environment
 // JavaScript mein, Lexical Scoping ka matlab hai ke function kis jagah par likha gaya hai, usi jagah ke variables ko access kar sakta hai. Matlab agar ek function dusre function ke andar hai, to inner function (jo andar likha hai) ko bahar wale function ke variables mil sakte hain.
@@ -53,3 +55,14 @@
 //     innerFunction();
 // }
 // outerFunction();
+
+
+
+
+//  hoisting
+// 1. JavaScript mein variables (var, let, const) aur functions ko execution se pehle memory mein upar le jaaya jaata hai, is process ko hoisting kehte hain.
+// 2. var variables undefined milte hain jab pehle access karo, jabki let aur const variables TDZ (Temporal Dead Zone) mein hote hain aur direct error dete hain.
+// 3. Only declaration hoist hoti hai, assignment nahi hoti; function declarations poori ki poori hoist ho jaati hain.
+
+
+//  Temporal Dead Zone (TDZ)
