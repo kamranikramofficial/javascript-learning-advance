@@ -1,7 +1,7 @@
 // Lexical Environment
 // Scope Chaining
 // hoisting
-//  Temporal Dead Zone (TDZ)
+// Temporal Dead Zone (TDZ)
 
 
 // Lexical Environment
