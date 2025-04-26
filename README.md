@@ -19,7 +19,7 @@ It covers essential building blocks like execution context, call stack, scoping,
 - **Variable Scoping**  
   Scope determines where a variable can be accessed — function or block level.   
 ---
-### Topics Covered class-2
+## Topics Covered class-2
 - **Lexical Environment**  
   The environment where variables and functions are physically written, deciding their scope access.
 - **Scope Chaining**  

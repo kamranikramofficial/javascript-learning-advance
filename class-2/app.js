@@ -57,8 +57,6 @@
 // outerFunction();
 
 
-
-
 //  hoisting
 // 1. JavaScript mein variables (var, let, const) aur functions ko execution se pehle memory mein upar le jaaya jaata hai, is process ko hoisting kehte hain.
 // 2. var variables undefined milte hain jab pehle access karo, jabki let aur const variables TDZ (Temporal Dead Zone) mein hote hain aur direct error dete hain.
