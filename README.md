@@ -70,6 +70,7 @@ It covers essential building blocks like execution context, call stack, scoping,
   - **Callback Queue / Task Queue**  
   - **Microtask Queue** (`Promises`, `MutationObserver`)  
   - **Event Loop** moves tasks from queues to the call stack when it's empty  
-  Example:  
-  `console.log("Start"); setTimeout(() => { console.log("Timeout"); }, 0); Promise.resolve().then(() => { console.log("Promise"); }); console.log("End");`  
-  **Output:**  
+
+---
+
+## 💻 Created by Kamran Ikram
