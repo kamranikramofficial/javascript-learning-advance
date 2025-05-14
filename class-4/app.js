@@ -5,6 +5,10 @@
 // IIFE (Immediately Invoked Function Expression):
 // First Class Function
 // ARROW FUNCTION
+// FUNCTION WTIH ARGUMENTS & PARAMETERS
+// Default Parameters
+// NAMED FUNCTION EXPRESSION
+// CALLBACK FUNCTION
 
 // Function Statement &  FUNCTION DECLARATION :
 //  Ek complete function likhna jo named ho — yehi function declaration bhi hota hai.
@@ -83,4 +87,52 @@
 // Normal function ka this change ho sakta hai depending on context.
 // Arrow function ko constructor ke taur pe use nahi kar sakte.
 
+
+// FUNCTION WTIH ARGUMENTS & PARAMETERS
+// Parameters → Function banate waqt jo variables define karte ho
+// Arguments → Jab function ko call karte ho to jo actual values dete ho
+
+// Function with One Parameter
+// function sayHello(name) {
+//   console.log("Hello, " + name);
+// }
+// sayHello("Sara");  // Output: Hello, Sara
+
+// Default Parameters
+// Agar function call karte waqt koi argument pass nahi kiya gaya, to function automatically default value use karega.
+//   syntax
+// function functionName(parameter = defaultValue) {
+   // code
+// }
+// function greet(name = "kamran") { 
+//   console.log("Welcome, " + name);
+// }
+// greet();        // Output: Welcome, Guest
+// greet("Zara");  // Output: Welcome, Zara
+
+
+
+// NAMED FUNCTION EXPRESSION
+// JavaScript mein jab tum ek function expression ke through define karte ho aur us function ko koi naam bhi dete ho, usse Named Function Expression kehte hain.
+// 📌 Iska use mostly debugging mein helpful hota hai (error stack trace mein naam dikhai deta hai).
+        // Syntax:
+// const variableName = function functionName(parameters) {
+//   // function body
+// };
+        // Example
+// const sayHi = function greet(name) {
+//   console.log("Hi, " + name);
+// };
+// sayHi("Ali");   // Output: Hi, Ali
+// greet("Ali"); // ❌ Error: greet is not defined
+
+
+// First Class Function
+// JavaScript mein functions ko first-class citizens maana jata hai.
+// Functions ko treat kiya ja sakta hai jaise values/variables — store, pass, return, ya assign kar sakte ho.
+// Key Features of First-Class Functions
+// Function ko variable mein assign kar sakte ho
+// Function ko argument ke tarha mein pass kar sakte ho
+// Function ko return kar sakte ho kisi dusre function se
+// Function ko array ya object mein store kar sakte ho
 
