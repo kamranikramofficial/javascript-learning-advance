@@ -3,7 +3,8 @@
 // ANONYMOUS FUNCTION
 // FUNCTION CALL & INVOKING
 // IIFE (Immediately Invoked Function Expression):
-
+// First Class Function
+// ARROW FUNCTION
 
 // Function Statement &  FUNCTION DECLARATION :
 //  Ek complete function likhna jo named ho — yehi function declaration bhi hota hai.
@@ -47,4 +48,39 @@
 //     console.log("IIFE chala diya turant!");
 //   })();
   
+
+
+// ARROW FUNCTION
+// Arrow function JavaScript ka shorter syntax hai function likhne ka. Yeh ES6 (2015) mein introduce hui thi. Yeh normal function ki tarah hi kaam karti hai, lekin likhne ka tareeqa chhota aur clean hota hai.
+// Normal Function:
+//     function add(a, b) {
+//   return a + b;
+// }
+//  Arrow Function:
+//     const add = (a, b) => {
+//   return a + b;
+// };
+
+// Ya agar ek hi line ka return hai to aur chhota likh sakte ho:
+// const add = (a, b) => a + b;
+
+// Ek hi parameter ho to parentheses hata sakte ho
+// const greet = name => `Hi, ${name}!`;
+// console.log(greet("Sara"));  // Output: Hi, Sara!
+
+// parameters (kuch pass nahi karna ho) javascript
+// const hello = () => "Hello World!";
+// console.log(hello());  // Output: Hello World!
+
+// Arrow function with map()
+// const numbers = [1, 2, 3, 4];
+// const squares = numbers.map(num => num * num);
+// console.log(squares);  // Output: [1, 4, 9, 16]
+
+//  Arrow Function aur Normal Function mein Farq
+// this ka behavior different hota hai
+// Arrow function apna this nahi banata, wo apne parent se inherit karta hai.
+// Normal function ka this change ho sakta hai depending on context.
+// Arrow function ko constructor ke taur pe use nahi kar sakte.
+
 
