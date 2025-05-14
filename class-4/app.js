@@ -136,3 +136,16 @@
 // Function ko return kar sakte ho kisi dusre function se
 // Function ko array ya object mein store kar sakte ho
 
+
+// CALLBACK FUNCTION
+// Callback function ek aisi function hoti hai jo kisi doosri function ko argument ke roop mein pass ki jaati hai, taake wo baad mein call ho sake.
+// "Ek function jo dusre function ke andar call kiya jata hai — as an argument."
+// function greet(name) {
+//   console.log("Hello, " + name);
+// }
+// function processUser(callback) {
+//   const username = "Ali";
+//   callback(username);
+// }
+// processUser(greet); 
+
