@@ -68,7 +68,7 @@ It covers essential building blocks like execution context, call stack, scoping,
   - **Call Stack**  
   - **Web APIs (Browser)**  
   - **Callback Queue / Task Queue**  
-  - **Microtask Queue** (`Promises`, `MutationObserver`)  
+  - **Microtask Queue**  
   - **Event Loop** moves tasks from queues to the call stack when it's empty  
 
 ---
