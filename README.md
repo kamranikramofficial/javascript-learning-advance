@@ -50,18 +50,10 @@ It covers essential building blocks like execution context, call stack, scoping,
   Runs immediately after being defined: `(function() { console.log("IIFE runs!"); })();`  
 - **First-Class Functions**  
   Functions in JavaScript can be passed as values, returned from other functions, and stored in variables.  
-- **Arrow Functions**  
-  Shorter syntax: `const add = (a, b) => a + b;`  
-  Arrow functions do not have their own `this`, `arguments`, or `super`.  
-- **Function with Arguments & Parameters**  
-  Parameters are variables listed as function inputs. Arguments are the actual values passed.  
-- **Default Parameters**  
-  Allow initializing parameters with default values: `function greet(name = "Guest") { console.log("Hello, " + name); }`  
-- **Named Function Expression**  
-  Function expressions with a name, useful for recursion or debugging.  
+- **Higher-Order Function**  
+  A function that takes another function as an argument or returns a function.  
 - **Callback Function**  
   A function passed into another function as an argument, called later.
-
 ### 📘 Class 5
 - **Event Loop (In-Depth)**  
   JavaScript is single-threaded but handles async tasks using the following components:  
