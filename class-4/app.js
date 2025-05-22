@@ -8,6 +8,7 @@
 // FUNCTION WTIH ARGUMENTS & PARAMETERS
 // Default Parameters
 // NAMED FUNCTION EXPRESSION
+// High-Order Function
 // CALLBACK FUNCTION
 
 // Function Statement &  FUNCTION DECLARATION :
@@ -137,6 +138,20 @@
 // Function ko array ya object mein store kar sakte ho
 
 
+// High-Order Function
+// Ek aisa function jo function ko accept kare ya function ko return kare — use kehte hain higher-order function.
+// function greetUser(name, callback) {
+//   console.log("Hello " + name);
+//   callback();  // yeh function call ho raha hai
+// }
+// function sayBye() {
+//   console.log("Allah Hafiz!");
+// }
+// greetUser("Ayesha", sayBye);
+// greetUser() ek higher-order function hai kyunke yeh function ko argument ke tor par le raha hai.
+// sayBye() ek callback function hai.
+
+
 // CALLBACK FUNCTION
 // Callback function ek aisi function hoti hai jo kisi doosri function ko argument ke roop mein pass ki jaati hai, taake wo baad mein call ho sake.
 // "Ek function jo dusre function ke andar call kiya jata hai — as an argument."
@@ -148,4 +163,15 @@
 //   callback(username);
 // }
 // processUser(greet); 
+
+
+        // Callback Function
+// Function jo kisi aur function ke andar pass hota hai (taake baad mein call ho).
+// Input hota hai (ek argument).	
+// sayHello function jo kisi aur function ke andar diya gaya ho.
+// Event handling, async tasks, animations, etc.
+        // Higher-Order Function
+// Function jo function ko accept karta hai ya return karta hai.
+// Controller hota hai — callback ko call karta hai.
+// greetUser function jo callback ko accept karta hai.Functional programming, abstraction, reusable logic.
 
